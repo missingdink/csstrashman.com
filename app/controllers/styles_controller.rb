@@ -1,5 +1,6 @@
 class StylesController < ApplicationController
   def new
+    @style = Styles.new
   end
 
   def create
