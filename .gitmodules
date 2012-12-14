@@ -1,0 +1,3 @@
+[submodule "lib/css-ratiocinator"]
+	path = lib/css-ratiocinator
+	url = https://github.com/begriffs/css-ratiocinator
