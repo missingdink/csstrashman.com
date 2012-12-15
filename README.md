@@ -12,3 +12,4 @@ enable multiple buildpacks. Before pushing to a new Heroku instance,
 run this:
 
     heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+    heroku config:set PATH=bin:vendor/bundle/ruby/1.9.1/bin:/usr/local/bin:/usr/bin:/bin:vendor/phantomjs/bin
