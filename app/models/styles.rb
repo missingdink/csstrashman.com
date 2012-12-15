@@ -4,7 +4,7 @@ class Styles < ActiveRecord::Base
   validates :url, presence: true
 
   def calculate_css
-    css = `/app/vendor/phantomjs /app/lib/css-ratiocinator/ratiocinate.js "#{url}"`
+    css = `/app/vendor/phantomjs/bin/phantomjs /app/lib/css-ratiocinator/ratiocinate.js "#{url}"`
     save
   end
 end
