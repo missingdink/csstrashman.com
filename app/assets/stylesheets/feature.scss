@@ -1,0 +1,43 @@
+.content {
+  width: 820px;
+  height: 272px;
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  margin: 0 auto;
+  .feature {
+    display: inline-block;
+    float: left;
+    width: 210px;
+    margin: 5px;
+    padding: 20px 0px 20px 20px;
+    vertical-align: top;
+    legend {
+      text-align: center;
+      font-weight: bold;
+      width: 100%;
+      margin: 15px 0;
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          color: #b8b8b8;
+        }
+      }
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.arrowRight {
+  float: left;
+  top: 0;
+}

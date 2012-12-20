@@ -1,0 +1,32 @@
+header {
+  height: 100px;
+  width: 800px;
+  margin: 0 auto;
+  img {
+    height: 85%;
+    vertical-align: middle;
+    margin: 0 15px;
+  }
+  h1 {
+    font-family: 'CabinRegular', Arial, sans-serif;
+    font-weight: normal;
+    display: inline;
+    span.beta {
+      font-size: 35%;
+      vertical-align:text-top;
+      color: #bd5037;
+    }
+    span.bold{
+      font-family: 'CabinBold', Arial, sans-serif;
+      font-size: 100%;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  h2{
+    color: #bd5037;
+    display: inline;
+    font-size: 1em;
+    font-family: 'CabinItalic', serif;
+  }
+}
