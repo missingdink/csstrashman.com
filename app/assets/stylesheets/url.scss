@@ -1,9 +1,9 @@
 form {
   width: 800px;
   margin: 0 auto;
-  input{
-    width: 500px;
+  input#url{
     height: 35px;
+    width: 600px;
     border-radius: 6px;
     text-transform: uppercase;
     padding: 0 10px;
@@ -17,6 +17,7 @@ form {
       color: white;
       height: 40px;
       margin: 0 10px;
+      font-size: 12px;
     }
   }
 }
