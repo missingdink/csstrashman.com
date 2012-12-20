@@ -1,0 +1,35 @@
+textarea {
+  width: 800px;
+  height: 800px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #eee;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+input[type="submit"] {
+  .cssButton {
+    width: 125px;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 8px 0 0;
+    background-color: white;
+    color: #bd5037;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: -5px 100px;
+  }
+
+  .sassButton {
+    width: 125px;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 0 8px 0 0;
+    background-color: #fafafa;
+    color: #bd5037;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: -5px -106px;
+  }
+}
