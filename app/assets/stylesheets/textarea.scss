@@ -1,3 +1,14 @@
+.outputText{
+  text-align: center;
+  margin: 30px;
+  color: #999;
+  h3{
+    text-transform: uppercase;
+    .reportText{
+      color: black;
+    }
+  }
+}
 textarea {
   width: 800px;
   height: 800px;

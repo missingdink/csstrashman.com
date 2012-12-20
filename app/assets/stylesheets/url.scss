@@ -5,19 +5,23 @@ form {
     height: 35px;
     width: 600px;
     border-radius: 6px;
-    text-transform: uppercase;
     padding: 0 10px;
     background-color: #eee;
     color: #666;
     font-family: 'CabinRegular';
+    font-size: 13px;
     letter-spacing: 1px;
     &.collecttrash {
       width: 150px;
       background-color: #bd5037;
+      text-transform: uppercase;
       color: white;
       height: 40px;
       margin: 0 10px;
       font-size: 12px;
+    }
+    &.collecttrash:active {
+      background-color: #e08566;
     }
   }
 }
