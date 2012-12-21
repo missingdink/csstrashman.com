@@ -1,0 +1,35 @@
+@-webkit-keyframes rotate { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); } } 
+.loading {
+  background-color: #4c4c4c;
+  height: 300px;
+  .truckanimation {
+    width: 350px;
+    margin: 20px auto;
+    h3 {
+      color: #fff;
+      text-transform: uppercase;
+      display: block;
+    }
+    img {
+      width: 25%;
+      height: 50%;
+      position: absolute;
+    }
+    .spinner { 
+      -webkit-animation-name: rotate; 
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      &.wheel1 {
+        width: 5%;
+        position: absolute;
+        margin: 63px 65px;
+      }
+      &.wheel2 {
+        width: 5%;
+        position: absolute;
+        margin: 62px 180px;
+      }
+    }
+  }
+}
