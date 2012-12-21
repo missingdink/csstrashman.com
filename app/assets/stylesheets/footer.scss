@@ -1,0 +1,35 @@
+footer {
+  background-color: #666666;
+  color: white;
+  font-size: 11px;
+  font-family: 'CabinRegular', Arial, san-serif;
+  height: 200px;
+  padding: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: #e08566;
+    }
+  }
+  .poweredby {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-left: 100px;
+  }
+  .share {
+    display: inline-block;
+    width: 265px;
+    float: right;
+    margin-right: 100px;
+    line-height: 15px;
+    img {
+      display: inline-block;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
