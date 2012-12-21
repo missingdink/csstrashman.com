@@ -1,34 +1,40 @@
 @-webkit-keyframes rotate { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); } } 
 .loading {
+  overflow: auto;
   background-color: #4c4c4c;
-  height: 300px;
   .truckanimation {
-    width: 350px;
-    margin: 20px auto;
+    position: relative;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
     h3 {
+      position: absolute;
+      bottom: 10px;
       color: #fff;
       text-transform: uppercase;
       display: block;
+      margin: 100px;
+      font-size: 18px;
     }
     img {
-      width: 25%;
-      height: 50%;
       position: absolute;
+      width: 250px;
+      left: 0px;
     }
     .spinner { 
       -webkit-animation-name: rotate; 
       -webkit-animation-duration: 1.5s;
       -webkit-animation-iteration-count: infinite;
       -webkit-animation-timing-function: linear;
+      top: 47px;
+      left: 2px;
       &.wheel1 {
-        width: 5%;
-        position: absolute;
         margin: 63px 65px;
+        width: 45px;
       }
       &.wheel2 {
-        width: 5%;
-        position: absolute;
         margin: 62px 180px;
+        width: 45px;
       }
     }
   }
